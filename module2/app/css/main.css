@@ -1,0 +1,28 @@
+.item {
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+}
+.wrapper {
+	height: calc(95vw / 2 / 16 * 9 - 10px);
+	width: calc(95vw / 2 - 10px);
+	max-height:  calc(1000px / 2 / 16 * 9 - 10px);
+	max-width: 490px;
+    margin: 5px;
+    display: block;
+    transition: all 0.3s;
+}
+.main{
+	width: 95%;
+	max-width: 1000px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+}
+.wrapper:hover {
+	transform: scale(1.15);
+}
+.wrapper:hover .item {
+	border-radius: 50%;
+}
